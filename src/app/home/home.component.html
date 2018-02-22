@@ -1,0 +1,25 @@
+<div class = "container ">
+  <div class="col color-light">
+    <div *ngIf = "nameText.length > 0">Hello {{nameText}}</div>
+      <form>
+    <input type="text" class="txt" name="name" placeholder="Enter Your name" [(ngModel)]="nameText">
+  </form> 
+  </div>
+</div>
+<div class="container">
+    <h3>Customers List</h3>
+    <table>
+        <tr>
+          <th>Name
+          </th>
+          <th>Age
+          </th>
+        </tr>
+        <tr *ngFor="let customer of customers">
+          <td>{{customer.name}}
+          </td>
+          <td>{{customer.age}}
+          </td>
+        </tr>
+      </table>
+</div>

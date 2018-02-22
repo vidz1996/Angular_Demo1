@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+}
+
+.col{
+    padding:1em 10em;
+}
+
+.color-light{
+    background:#4f6e75;
+}
+
+input.txt{
+    border: 3px;
+    padding: 10px;
+    width: 50%
+}
