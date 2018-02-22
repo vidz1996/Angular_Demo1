@@ -1,0 +1,27 @@
+{"products":[
+    {
+        "id": 1,
+        "name":"Laptop",
+        "price":40000
+    },
+    {
+        "id": 2,
+        "name":"Plasma TV",
+        "price":85000
+    },
+    {
+        "id": 3,
+        "name":"Refrigerator",
+        "price":60000
+    },
+    {
+        "id": 4,
+        "name":"Washing Machine",
+        "price":45000
+    },
+    {
+        "id": 5,
+        "name":"Microwave Oven",
+        "price":30000
+    }
+]}
