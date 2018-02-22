@@ -6,6 +6,6 @@ export class GetJsonDataService {
   constructor(private http: HttpClient) { }
 
   getJsonData(){
-    return this.http.get('../assets/product_data.json');
+    return this.http.get('/assets/product_data.json');
   }
 }
